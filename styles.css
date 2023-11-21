@@ -1,0 +1,75 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    display: flexbox;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    display: block;
+    font-weight: strong;
+    font-size: 60px;
+    padding: 10px;
+}
+
+p , h3 {
+    background-color: transparent;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.recipes {
+    text-align: center;
+    list-style: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 10px double purple;
+    color: white;
+    padding: 0;
+}
+
+.recipe-list {
+    color: red;
+    text-align: left;
+    display: block;
+}
+
+.description {
+    border: 10px solid red;
+    padding: 2rem;
+    color: whitesmoke;
+    background-color: purple;
+    font-style: italic;
+    display: block;
+}
+
+.food-image {
+    margin: 15px auto 40px;
+    display: block;
+}
+
+.landing-area {
+    display: block;
+    background-color: black;
+    max-width: 800px;
+    height: 1200px;
+    margin: 0 auto; 
+    padding: 10px;
+    border-left: 20px solid darkgray ;  
+}
+
+#hippies {
+    margin: 20% auto;
+}
+
+a:visited {
+    color: red;
+}
